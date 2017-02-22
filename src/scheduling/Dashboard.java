@@ -151,7 +151,6 @@ public class Dashboard extends Application {
                 // GET ID For Customers Country to
 
                 controller.setSelectCountry( customer.getCountry() );
-                System.out.println( " country set value = " + customer.getCountry() );
                 Scene addCustomerScene = new Scene( root, 800, 600 );
                 primaryStage.setScene( addCustomerScene );
                 primaryStage.show();
@@ -167,21 +166,27 @@ public class Dashboard extends Application {
 
     @FXML
     void deleteCustomer(ActionEvent event) {
-        System.out.println("Delete button started");
-        Alert alert = new Alert( Alert.AlertType.CONFIRMATION);
-        alert.setTitle("Delete Customer");
-        alert.setHeaderText("Aren you sure you want to delete this customer?");
-        alert.setContentText(null);
-        Optional<ButtonType> result = alert.showAndWait();
-        if (result.get() == ButtonType.OK){
-            ObservableList<Customer> customerSelected, allCustomers;
-            allCustomers = tableView.getItems();
+        ObservableList<Customer> customerSelected, allCustomers;
+        try {
             customerSelected = tableView.getSelectionModel().getSelectedItems();
-            // TODO Combine
-            customerSelected.forEach( Customer::deleteCustomer );
-            customerSelected.forEach( allCustomers::remove);
+            if (customerSelected.size() == 0) {
+                showAlert(Alert.AlertType.ERROR, "Please select a customer record first");
+            } else {
+                Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+                alert.setTitle("Delete Customer");
+                alert.setHeaderText("Aren you sure you want to delete this customer?");
+                alert.setContentText(null);
+                Optional<ButtonType> result = alert.showAndWait();
+                if (result.get() == ButtonType.OK) {
+                    allCustomers = tableView.getItems();
+                    // TODO Combine
+                    customerSelected.forEach(Customer::deleteCustomer);
+                    customerSelected.forEach(allCustomers::remove);
+                }
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
-
 
 
     }

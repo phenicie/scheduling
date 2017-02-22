@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduling.Dashboard">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduling.Dashboard">
    <children>
       <SplitPane dividerPositions="0.03508771929824561" orientation="VERTICAL" prefHeight="800.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -94,7 +94,28 @@
                       </Tab>
                       <Tab text="Appointments">
                         <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="330.0" prefWidth="562.0" />
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="330.0" prefWidth="562.0">
+                                 <children>
+                                    <SplitPane dividerPositions="0.04967320261437908" layoutX="19.0" layoutY="22.0" orientation="VERTICAL" prefHeight="767.0" prefWidth="969.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <items>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="193.0" prefWidth="967.0">
+                                             <children>
+                                                <Button fx:id="btnAddAppointment" layoutX="653.0" mnemonicParsing="false" onAction="#showAddAppointment" text="New Appointment" />
+                                             </children>
+                                          </AnchorPane>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="484.0" prefWidth="967.0">
+                                             <children>
+                                                <TableView fx:id="appointmentTable" prefHeight="554.0" prefWidth="781.0" AnchorPane.bottomAnchor="-13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-14.0" AnchorPane.topAnchor="0.0">
+                                                  <columns>
+                                                    <TableColumn prefWidth="75.0" text="C1" />
+                                                    <TableColumn prefWidth="75.0" text="C2" />
+                                                  </columns>
+                                                </TableView>
+                                             </children>
+                                          </AnchorPane>
+                                      </items>
+                                    </SplitPane>
+                                 </children></AnchorPane>
                         </content>
                       </Tab>
                     </tabs>

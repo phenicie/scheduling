@@ -8,11 +8,15 @@ import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLException;
 import java.time.DateTimeException;
+import java.time.ZoneId;
 import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.TimeZone;
 import java.util.stream.Collectors;
 
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -23,6 +27,8 @@ import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import static scheduling.helpers.showAlert;
+import static scheduling.helpers.timeSelections;
+import static scheduling.helpers.timesList;
 
 public class addAppointment {
 
@@ -58,6 +64,12 @@ public class addAppointment {
 
     @FXML // fx:id="dateEnd"
     private DatePicker dateEnd; // Value injected by FXMLLoader
+
+    @FXML
+    private ComboBox<String> selectStartTime;
+
+    @FXML
+    private ComboBox<String> selectEndTime;
 
     @FXML
     void addAppointment(ActionEvent event) {
@@ -120,11 +132,15 @@ public class addAppointment {
         assert txtUrl != null : "fx:id=\"txtUrl\" was not injected: check your FXML file 'addAppointment.fxml'.";
         assert dateStart != null : "fx:id=\"dateStart\" was not injected: check your FXML file 'addAppointment.fxml'.";
         assert dateEnd != null : "fx:id=\"dateEnd\" was not injected: check your FXML file 'addAppointment.fxml'.";
+        assert selectStartTime != null : "fx:id=\"selectStartTime\" was not injected: check your FXML file 'addAppointment.fxml'.";
+        assert selectEndTime != null : "fx:id=\"selectEndTime\" was not injected: check your FXML file 'addAppointment.fxml'.";
 
         this.selectCustomer.getItems().clear();
         //Customer.getCustomers(); // Populate Customer Map
         //List<String> customers = Customer.customerMap.entrySet().stream().map( x->x.getValue()).collect( Collectors.toList());// Get Countries as List
         this.selectCustomer.getItems().addAll( Dashboard.customerData ); // Add list to ComboBox
+        this.selectStartTime.getItems().addAll(helpers.timeSelections );
+        this.selectEndTime.getItems().addAll(helpers.timeSelections );
 
         System.out.println("loop customer list");
         for(Customer cust:Dashboard.customerData){
@@ -159,13 +175,17 @@ public class addAppointment {
             String contact = txtContact.getText();
             String url = txtUrl.getText();
             // TODO Pare Datetime/Adjust for Timezone
-            ZonedDateTime startDate = dateStart;
-            ZonedDateTime endDate = dateEnd;
+            String startDate = dateStart.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+            //java.sql.Date sqlDate =java.sql.Date.valueOf(datepicker.getValue());
+            String endDate = dateEnd.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 
             String customer = selectCustomer.getValue().toString();
-            System.out.println("All strings entered - call Create new Customer");
-            // Create new customer record
-            createAppointnment(); // TODO Create Appointment Function ** Use Lambda
+            System.out.println("All strings entered - call Create new Appointment");
+            System.out.println("User timezone id is :" + TimeZone.getDefault().toZoneId());
+            System.out.println("User timezone is :" + ZoneId.systemDefault());
+            // TODO Parse Date/Time fields --> Convert to UTC
+            // TODO Retrieve customerId from selection
+            // TODO Create Appointment Function ** Use Lambda
 
 
 
@@ -189,4 +209,8 @@ public class addAppointment {
             e.printStackTrace();
         }
     }
+
+
+
+
 }
