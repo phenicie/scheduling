@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="111149c2-22e0-4b91-8dab-5e4ddf3e07ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mysql-connector-java-5.1.40-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scheduling/Appointment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scheduling/Country.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scheduling/helpers.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - U03QFw" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1564">
+              <caret line="90" column="74" lean-forward="false" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
+              <folding>
+                <marker date="1487708401749" expanded="true" signature="9169:9313" ph="Select custo... " />
+                <marker date="1487708401749" expanded="true" signature="9169:9361" ph="Select custo... customer" />
+                <marker date="1487708401749" expanded="true" signature="9169:9438" ph="Select custo... customer" />
+                <marker date="1487708401749" expanded="true" signature="9169:9569" ph="Select cust.... customer" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addCustomer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="128" column="63" lean-forward="true" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+              <folding>
+                <marker date="1487708752647" expanded="true" signature="8580:8663" ph="UPDATE addre... " />
+                <marker date="1487708752647" expanded="true" signature="9168:9219" ph="UPDATE city " />
+                <marker date="1487708752647" expanded="true" signature="9168:9220" ph="UPDATE city " />
+                <marker date="1487708752647" expanded="true" signature="9657:9706" ph="SELECT addre... customer" />
+                <marker date="1487708752647" expanded="true" signature="10196:10240" ph="SELECT cityI... address" />
+                <marker date="1487708752647" expanded="true" signature="10684:10795" ph="UPDATE custo... " />
+                <marker date="1487708752647" expanded="true" signature="10684:10797" ph="UPDATE custo... " />
+                <marker date="1487708752647" expanded="true" signature="11297:11349" ph="SELECT count... country" />
+                <marker date="1487708752647" expanded="true" signature="11997:12035" ph="SELECT max(c... city" />
+                <marker date="1487708752647" expanded="true" signature="12287:12443" ph="INSERT INTO city... " />
+                <marker date="1487708752647" expanded="true" signature="13223:13270" ph="select max(a... address" />
+                <marker date="1487708752647" expanded="true" signature="13708:13904" ph="INSERT into address... " />
+                <marker date="1487708752647" expanded="true" signature="14620:14670" ph="select max(c... customer" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Country.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scheduling/Country.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding>
+                <marker date="1487708994717" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>city</find>
+      <find>appStage</find>
+      <find>FXML Init</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/scheduling/Customer.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/view/dashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/scheduling/controller/addCustomer.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/Countries.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/Login.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/Dashboard.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/helpers.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/addCustomer.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/Country.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/Appointment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-86" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mysql-connector-java-5.1.40-bin.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\phenicie\IdeaProjects\scheduling\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Dashboard">
+    <configuration default="false" name="Dashboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="scheduling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="scheduling.Dashboard" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="scheduling" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="scheduling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="scheduling.Scheduling" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="scheduling" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="scheduling" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Dashboard" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Scheduling" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Dashboard" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Scheduling" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="111149c2-22e0-4b91-8dab-5e4ddf3e07ac" name="Default" comment="" />
+      <created>1487168616421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487168616421</updated>
+      <workItem from="1487168623565" duration="75000" />
+      <workItem from="1487168750705" duration="642000" />
+      <workItem from="1487172388326" duration="935000" />
+      <workItem from="1487174333711" duration="16470000" />
+      <workItem from="1487192440688" duration="67000" />
+      <workItem from="1487272088922" duration="5191000" />
+      <workItem from="1487694842561" duration="12297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35677000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-86" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.49701494" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30200633" sideWeight="0.50208336" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29564315" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23560767" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="default" isVisible="true" />
+        <filter targetName="-pre-init" isVisible="false" />
+        <filter targetName="-init-private" isVisible="false" />
+        <filter targetName="-init-user" isVisible="false" />
+        <filter targetName="-init-project" isVisible="false" />
+        <filter targetName="-do-init" isVisible="false" />
+        <filter targetName="-post-init" isVisible="false" />
+        <filter targetName="-init-check" isVisible="false" />
+        <filter targetName="-init-macrodef-property" isVisible="false" />
+        <filter targetName="-init-macrodef-javac-with-processors" isVisible="false" />
+        <filter targetName="-init-macrodef-javac-without-processors" isVisible="false" />
+        <filter targetName="-init-macrodef-javac" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-init" isVisible="false" />
+        <filter targetName="-init-test-properties" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-single" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-batch" isVisible="false" />
+        <filter targetName="-init-macrodef-junit" isVisible="false" />
+        <filter targetName="-init-macrodef-testng" isVisible="false" />
+        <filter targetName="-init-macrodef-test-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-test" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug-batch" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-debug-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug-junit" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug-testng" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug" isVisible="false" />
+        <filter targetName="profile-init" isVisible="false" />
+        <filter targetName="-profile-pre-init" isVisible="false" />
+        <filter targetName="-profile-post-init" isVisible="false" />
+        <filter targetName="-profile-init-macrodef-profile" isVisible="false" />
+        <filter targetName="-profile-init-check" isVisible="false" />
+        <filter targetName="-init-macrodef-nbjpda" isVisible="false" />
+        <filter targetName="-init-debug-args" isVisible="false" />
+        <filter targetName="-init-macrodef-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-java" isVisible="false" />
+        <filter targetName="-init-macrodef-copylibs" isVisible="false" />
+        <filter targetName="-init-presetdef-jar" isVisible="false" />
+        <filter targetName="-init-ap-cmdline-properties" isVisible="false" />
+        <filter targetName="-init-ap-cmdline-supported" isVisible="false" />
+        <filter targetName="-init-ap-cmdline" isVisible="false" />
+        <filter targetName="init" isVisible="false" />
+        <filter targetName="-deps-jar-init" isVisible="false" />
+        <filter targetName="-warn-already-built-jar" isVisible="false" />
+        <filter targetName="deps-jar" isVisible="false" />
+        <filter targetName="-verify-automatic-build" isVisible="false" />
+        <filter targetName="-check-automatic-build" isVisible="false" />
+        <filter targetName="-clean-after-automatic-build" isVisible="false" />
+        <filter targetName="-pre-pre-compile" isVisible="false" />
+        <filter targetName="-pre-compile" isVisible="false" />
+        <filter targetName="-compile-depend" isVisible="false" />
+        <filter targetName="-do-compile" isVisible="false" />
+        <filter targetName="-copy-persistence-xml" isVisible="false" />
+        <filter targetName="-post-compile" isVisible="false" />
+        <filter targetName="compile" isVisible="true" />
+        <filter targetName="-pre-compile-single" isVisible="false" />
+        <filter targetName="-do-compile-single" isVisible="false" />
+        <filter targetName="-post-compile-single" isVisible="false" />
+        <filter targetName="compile-single" isVisible="false" />
+        <filter targetName="-pre-pre-jar" isVisible="false" />
+        <filter targetName="-pre-jar" isVisible="false" />
+        <filter targetName="-do-jar-create-manifest" isVisible="false" />
+        <filter targetName="-do-jar-copy-manifest" isVisible="false" />
+        <filter targetName="-do-jar-set-mainclass" isVisible="false" />
+        <filter targetName="-do-jar-set-profile" isVisible="false" />
+        <filter targetName="-do-jar-set-splashscreen" isVisible="false" />
+        <filter targetName="-do-jar-copylibs" isVisible="false" />
+        <filter targetName="-do-jar-jar" isVisible="false" />
+        <filter targetName="-do-jar-delete-manifest" isVisible="false" />
+        <filter targetName="-do-jar-without-libraries" isVisible="false" />
+        <filter targetName="-do-jar-with-libraries" isVisible="false" />
+        <filter targetName="-post-jar" isVisible="false" />
+        <filter targetName="-do-jar" isVisible="false" />
+        <filter targetName="jar" isVisible="true" />
+        <filter targetName="run" isVisible="true" />
+        <filter targetName="-do-not-recompile" isVisible="false" />
+        <filter targetName="run-single" isVisible="false" />
+        <filter targetName="run-test-with-main" isVisible="false" />
+        <filter targetName="-debug-start-debugger" isVisible="false" />
+        <filter targetName="-debug-start-debugger-main-test" isVisible="false" />
+        <filter targetName="-debug-start-debuggee" isVisible="false" />
+        <filter targetName="debug" isVisible="true" />
+        <filter targetName="-debug-start-debugger-stepinto" isVisible="false" />
+        <filter targetName="debug-stepinto" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-single" isVisible="false" />
+        <filter targetName="debug-single" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-main-test" isVisible="false" />
+        <filter targetName="debug-test-with-main" isVisible="false" />
+        <filter targetName="-pre-debug-fix" isVisible="false" />
+        <filter targetName="-do-debug-fix" isVisible="false" />
+        <filter targetName="debug-fix" isVisible="false" />
+        <filter targetName="-profile-pre72" isVisible="true" />
+        <filter targetName="-profile-single-pre72" isVisible="true" />
+        <filter targetName="-profile-applet-pre72" isVisible="false" />
+        <filter targetName="-profile-test-single-pre72" isVisible="false" />
+        <filter targetName="-profile-check" isVisible="false" />
+        <filter targetName="profile" isVisible="true" />
+        <filter targetName="profile-single" isVisible="true" />
+        <filter targetName="profile-test-single" isVisible="true" />
+        <filter targetName="profile-test" isVisible="true" />
+        <filter targetName="profile-test-with-main" isVisible="true" />
+        <filter targetName="profile-applet" isVisible="false" />
+        <filter targetName="-javadoc-build" isVisible="false" />
+        <filter targetName="-javadoc-browse" isVisible="false" />
+        <filter targetName="javadoc" isVisible="true" />
+        <filter targetName="-pre-pre-compile-test" isVisible="false" />
+        <filter targetName="-pre-compile-test" isVisible="false" />
+        <filter targetName="-compile-test-depend" isVisible="false" />
+        <filter targetName="-do-compile-test" isVisible="false" />
+        <filter targetName="-post-compile-test" isVisible="false" />
+        <filter targetName="compile-test" isVisible="false" />
+        <filter targetName="-pre-compile-test-single" isVisible="false" />
+        <filter targetName="-do-compile-test-single" isVisible="false" />
+        <filter targetName="-post-compile-test-single" isVisible="false" />
+        <filter targetName="compile-test-single" isVisible="false" />
+        <filter targetName="-pre-test-run" isVisible="false" />
+        <filter targetName="-do-test-run" isVisible="false" />
+        <filter targetName="-post-test-run" isVisible="false" />
+        <filter targetName="test-report" isVisible="false" />
+        <filter targetName="-test-browse" isVisible="false" />
+        <filter targetName="test" isVisible="true" />
+        <filter targetName="-pre-test-run-single" isVisible="false" />
+        <filter targetName="-do-test-run-single" isVisible="false" />
+        <filter targetName="-post-test-run-single" isVisible="false" />
+        <filter targetName="test-single" isVisible="true" />
+        <filter targetName="-do-test-run-single-method" isVisible="false" />
+        <filter targetName="-post-test-run-single-method" isVisible="false" />
+        <filter targetName="test-single-method" isVisible="true" />
+        <filter targetName="-debug-start-debuggee-test" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-test-method" isVisible="false" />
+        <filter targetName="-debug-start-debugger-test" isVisible="false" />
+        <filter targetName="debug-test" isVisible="false" />
+        <filter targetName="debug-test-method" isVisible="false" />
+        <filter targetName="-do-debug-fix-test" isVisible="false" />
+        <filter targetName="debug-fix-test" isVisible="false" />
+        <filter targetName="run-applet" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-applet" isVisible="false" />
+        <filter targetName="debug-applet" isVisible="false" />
+        <filter targetName="-deps-clean-init" isVisible="false" />
+        <filter targetName="-warn-already-built-clean" isVisible="false" />
+        <filter targetName="deps-clean" isVisible="false" />
+        <filter targetName="-do-clean" isVisible="false" />
+        <filter targetName="-post-clean" isVisible="false" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="-check-call-dep" isVisible="false" />
+        <filter targetName="-maybe-call-dep" isVisible="false" />
+        <filter targetName="-pre-jfx-jar" isVisible="false" />
+        <filter targetName="-post-jfx-jar" isVisible="false" />
+        <filter targetName="-pre-jfx-deploy" isVisible="false" />
+        <filter targetName="-post-jfx-deploy" isVisible="false" />
+        <filter targetName="-pre-jfx-native" isVisible="false" />
+        <filter targetName="-post-jfx-native" isVisible="false" />
+        <filter targetName="-check-operating-system" isVisible="false" />
+        <filter targetName="-check-platform-home-fxsdk-java" isVisible="false" />
+        <filter targetName="-set-platform-home-fxsdk-java" isVisible="false" />
+        <filter targetName="-check-platform-home-java" isVisible="false" />
+        <filter targetName="-set-platform-home-java" isVisible="false" />
+        <filter targetName="-check-platform-home-probjdk-java" isVisible="false" />
+        <filter targetName="-set-platform-home-probjdk-java" isVisible="false" />
+        <filter targetName="-check-platform-home-envjdk-java" isVisible="false" />
+        <filter targetName="-set-platform-home-envjdk-java" isVisible="false" />
+        <filter targetName="-check-platform-home-fxrt-java" isVisible="false" />
+        <filter targetName="-set-platform-home-fxrt-java" isVisible="false" />
+        <filter targetName="-check-platform-home-jre-java" isVisible="false" />
+        <filter targetName="-set-platform-home-jre-java" isVisible="false" />
+        <filter targetName="-check-platform-home" isVisible="false" />
+        <filter targetName="-check-jdk-version" isVisible="false" />
+        <filter targetName="-check-ant-jre-version" isVisible="false" />
+        <filter targetName="-check-jdk-7u4or5-mac" isVisible="false" />
+        <filter targetName="-check-endorsed-javafx-ant-classpath" isVisible="false" />
+        <filter targetName="-check-property-javafx.sdk" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-fxsdk-lib" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-fxsdk-lib" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-fxsdk-tools" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-fxsdk-tools" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-platform-home-lib" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-platform-home-lib" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-platform-home-tools" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-platform-home-tools" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-probjdk-lib" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-probjdk-lib" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-probjdk-tools" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-probjdk-tools" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-macjdk-lib" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-macjdk-lib" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-envjdk-lib" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-envjdk-lib" isVisible="false" />
+        <filter targetName="-check-ant-javafx-in-envjdk-tools" isVisible="false" />
+        <filter targetName="-set-ant-javafx-in-envjdk-tools" isVisible="false" />
+        <filter targetName="-pre-check-ant-javafx-version" isVisible="false" />
+        <filter targetName="-set-endorsed-javafx-ant-classpath" isVisible="false" />
+        <filter targetName="-set-javafx-ant-classpath" isVisible="false" />
+        <filter targetName="-check-ant-javafx-version" isVisible="false" />
+        <filter targetName="-check-jfx-sdk-version-old" isVisible="false" />
+        <filter targetName="-check-jfx-sdk-version-new" isVisible="false" />
+        <filter targetName="-check-jfx-sdk-version" isVisible="false" />
+        <filter targetName="-check-jfx-deployment" isVisible="false" />
+        <filter targetName="-check-property-javafx.runtime" isVisible="false" />
+        <filter targetName="-check-jfxrt-in-fxrt" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-fxrt-old" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-fxrt-new" isVisible="false" />
+        <filter targetName="-check-jfxrt-in-fxsdk-jre" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-fxsdk-jre-old" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-fxsdk-jre-new" isVisible="false" />
+        <filter targetName="-check-jfxrt-in-fxsdk-rt" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-fxsdk-rt-old" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-fxsdk-rt-new" isVisible="false" />
+        <filter targetName="-check-jfxrt-in-platform-home-jre" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-platform-home-jre-old" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-platform-home-jre-new" isVisible="false" />
+        <filter targetName="-check-jfxrt-in-platform-home-rt" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-platform-home-rt-old" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-platform-home-rt-new" isVisible="false" />
+        <filter targetName="-check-jfxrt-in-jre" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-jre-old" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-jre-new" isVisible="false" />
+        <filter targetName="-check-jfxrt-in-envjdk-jre" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-envjdk-jre-old" isVisible="false" />
+        <filter targetName="-set-jfxrt-in-envjdk-jre-new" isVisible="false" />
+        <filter targetName="-pre-check-jfx-runtime" isVisible="false" />
+        <filter targetName="-check-jfx-runtime" isVisible="false" />
+        <filter targetName="-check-webstart-in-fxrt" isVisible="false" />
+        <filter targetName="-set-webstart-in-fxrt" isVisible="false" />
+        <filter targetName="-check-webstart-in-fxsdk-jre" isVisible="false" />
+        <filter targetName="-set-webstart-in-fxsdk-jre" isVisible="false" />
+        <filter targetName="-check-webstart-in-fxsdk" isVisible="false" />
+        <filter targetName="-set-webstart-in-fxsdk" isVisible="false" />
+        <filter targetName="-check-webstart-in-platform-home-jre" isVisible="false" />
+        <filter targetName="-set-webstart-in-platform-home-jre" isVisible="false" />
+        <filter targetName="-check-webstart-in-platform-home" isVisible="false" />
+        <filter targetName="-set-webstart-in-platform-home" isVisible="false" />
+        <filter targetName="-check-webstart-in-jre" isVisible="false" />
+        <filter targetName="-set-webstart-in-jre" isVisible="false" />
+        <filter targetName="-check-webstart-in-probjdk" isVisible="false" />
+        <filter targetName="-set-webstart-in-probjdk" isVisible="false" />
+        <filter targetName="-check-webstart-in-envjdk" isVisible="false" />
+        <filter targetName="-set-webstart-in-envjdk" isVisible="false" />
+        <filter targetName="-pre-check-webstart-in-unix" isVisible="false" />
+        <filter targetName="-check-webstart-in-unix" isVisible="false" />
+        <filter targetName="-set-webstart-in-unix" isVisible="false" />
+        <filter targetName="-pre-check-jfx-webstart" isVisible="false" />
+        <filter targetName="-check-jfx-webstart" isVisible="false" />
+        <filter targetName="-check-javafx" isVisible="false" />
+        <filter targetName="-javafx-check-error" isVisible="false" />
+        <filter targetName="-init-javafx" isVisible="false" />
+        <filter targetName="-check-default-run-config" isVisible="false" />
+        <filter targetName="-check-project" isVisible="false" />
+        <filter targetName="-swing-api-check" isVisible="false" />
+        <filter targetName="-swing-api-warning" isVisible="false" />
+        <filter targetName="-icon-deployment-check" isVisible="false" />
+        <filter targetName="-icon-warning" isVisible="false" />
+        <filter targetName="-set-dimensions" isVisible="false" />
+        <filter targetName="-reset-dimensions" isVisible="false" />
+        <filter targetName="-set-update-mode-background" isVisible="false" />
+        <filter targetName="-set-update-mode-eager" isVisible="false" />
+        <filter targetName="-set-permissions-elevated" isVisible="false" />
+        <filter targetName="-reset-permissions-elevated" isVisible="false" />
+        <filter targetName="-set-binary-css" isVisible="false" />
+        <filter targetName="-unset-binary-css" isVisible="false" />
+        <filter targetName="-copy-binary-css" isVisible="false" />
+        <filter targetName="-init-css-conversion" isVisible="false" />
+        <filter targetName="-copy-binary-css-bypass" isVisible="false" />
+        <filter targetName="-copy-binary-css-impl" isVisible="false" />
+        <filter targetName="-jfx-copylibs" isVisible="false" />
+        <filter targetName="-jfx-copylibs-warning" isVisible="false" />
+        <filter targetName="-copy-external-preloader-jar" isVisible="false" />
+        <filter targetName="-rebase-libs" isVisible="false" />
+        <filter targetName="-check-rebase-libs" isVisible="false" />
+        <filter targetName="-rebase-libs-warning" isVisible="false" />
+        <filter targetName="-new-temp-mainfest-existence" isVisible="false" />
+        <filter targetName="-move-new-manifest-if-exists" isVisible="false" />
+        <filter targetName="-rebase-libs-macro-call" isVisible="false" />
+        <filter targetName="jfx-deployment" isVisible="false" />
+        <filter targetName="-check-dist-lib-exists" isVisible="false" />
+        <filter targetName="-check-jfx-deployment-jar-current-nolib" isVisible="false" />
+        <filter targetName="-check-jfx-deployment-jar-current-lib" isVisible="false" />
+        <filter targetName="-check-jfx-deployment-launch" isVisible="false" />
+        <filter targetName="-do-jfx-deployment-script" isVisible="false" />
+        <filter targetName="-do-jfx-deployment-noscript" isVisible="false" />
+        <filter targetName="jfx-deployment-script" isVisible="false" />
+        <filter targetName="jfx-deployment-noscript" isVisible="false" />
+        <filter targetName="-unavailable-signjars-task" isVisible="false" />
+        <filter targetName="-security-props-check" isVisible="false" />
+        <filter targetName="-check-signing-possible" isVisible="false" />
+        <filter targetName="-javafx-init-keystore" isVisible="false" />
+        <filter targetName="-check-keystore-exists" isVisible="false" />
+        <filter targetName="-javafx-init-signing" isVisible="false" />
+        <filter targetName="-javafx-init-keystore1" isVisible="false" />
+        <filter targetName="-javafx-init-keystore2" isVisible="false" />
+        <filter targetName="-check-signing-security" isVisible="false" />
+        <filter targetName="-warn-insufficient-signing" isVisible="false" />
+        <filter targetName="-check-sign" isVisible="false" />
+        <filter targetName="-check-nosign" isVisible="false" />
+        <filter targetName="-deploy-app-sign-nopreloader-notemplate" isVisible="false" />
+        <filter targetName="-deploy-app-sign-blob-nopreloader-notemplate" isVisible="false" />
+        <filter targetName="-deploy-app-sign-preloader-notemplate" isVisible="false" />
+        <filter targetName="-deploy-app-sign-blob-preloader-notemplate" isVisible="false" />
+        <filter targetName="-deploy-app-sign-nopreloader-template" isVisible="false" />
+        <filter targetName="-deploy-app-sign-blob-nopreloader-template" isVisible="false" />
+        <filter targetName="-deploy-app-sign-preloader-template" isVisible="false" />
+        <filter targetName="-deploy-app-sign-blob-preloader-template" isVisible="false" />
+        <filter targetName="-deploy-app-sign-nopreloader-notemplate-swing" isVisible="false" />
+        <filter targetName="-deploy-app-sign-blob-nopreloader-notemplate-swing" isVisible="false" />
+        <filter targetName="-deploy-app-sign-nopreloader-template-swing" isVisible="false" />
+        <filter targetName="-deploy-app-sign-blob-nopreloader-template-swing" isVisible="false" />
+        <filter targetName="-deploy-app-nosign-nopreloader-notemplate" isVisible="false" />
+        <filter targetName="-deploy-app-nosign-preloader-notemplate" isVisible="false" />
+        <filter targetName="-deploy-app-nosign-nopreloader-template" isVisible="false" />
+        <filter targetName="-deploy-app-nosign-preloader-template" isVisible="false" />
+        <filter targetName="-deploy-app-nosign-nopreloader-notemplate-swing" isVisible="false" />
+        <filter targetName="-deploy-app-nosign-nopreloader-template-swing" isVisible="false" />
+        <filter targetName="-check-fallback-sign-deploy-swing-possible" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-nopreloader-notemplate" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-blob-nopreloader-notemplate" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-preloader-notemplate" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-blob-preloader-notemplate" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-nopreloader-template" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-blob-nopreloader-template" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-preloader-template" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-blob-preloader-template" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-nopreloader-notemplate-swing" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-blob-nopreloader-notemplate-swing" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-nopreloader-template-swing" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-sign-blob-nopreloader-template-swing" isVisible="false" />
+        <filter targetName="-check-fallback-nosign-deploy-swing-possible" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-nosign-nopreloader-notemplate" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-nosign-preloader-notemplate" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-nosign-nopreloader-template" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-nosign-preloader-template" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-nosign-nopreloader-notemplate-swing" isVisible="false" />
+        <filter targetName="-fallback-deploy-app-nosign-nopreloader-template-swing" isVisible="false" />
+        <filter targetName="jfx-build" isVisible="false" />
+        <filter targetName="jfx-build-noscript" isVisible="false" />
+        <filter targetName="jfx-rebuild" isVisible="false" />
+        <filter targetName="jfx-rebuild-noscript" isVisible="false" />
+        <filter targetName="jfx-build-native" isVisible="false" />
+        <filter targetName="jfx-build-native-noscript" isVisible="false" />
+        <filter targetName="build-native" isVisible="false" />
+        <filter targetName="build-native-noscript" isVisible="false" />
+        <filter targetName="-check-do-jar" isVisible="false" />
+        <filter targetName="-set-fallback-no-javascript" isVisible="false" />
+        <filter targetName="-jfx-do-compile" isVisible="false" />
+        <filter targetName="-jfx-do-jar" isVisible="false" />
+        <filter targetName="-jfx-do-post-jar" isVisible="false" />
+        <filter targetName="-set-do-build-native-package" isVisible="false" />
+        <filter targetName="-check-ant-jre-supports-native-packaging" isVisible="false" />
+        <filter targetName="-call-pre-jfx-native" isVisible="false" />
+        <filter targetName="-call-post-jfx-native" isVisible="false" />
+        <filter targetName="-check-native-bundling-type" isVisible="false" />
+        <filter targetName="-check-Inno-presence" isVisible="false" />
+        <filter targetName="-check-WiX-presence" isVisible="false" />
+        <filter targetName="-check-dpkg-presence" isVisible="false" />
+        <filter targetName="-check-rpmbuild-presence" isVisible="false" />
+        <filter targetName="-check-native-packager-external-tools" isVisible="false" />
+        <filter targetName="-warn-of-preloader" isVisible="false" />
+        <filter targetName="-mark-project-state-running" isVisible="false" />
+        <filter targetName="-mark-project-state-debugging" isVisible="false" />
+        <filter targetName="-mark-project-state-debugging-in-browser" isVisible="false" />
+        <filter targetName="-mark-project-state-profiling" isVisible="false" />
+        <filter targetName="-mark-project-needs-jnlp" isVisible="false" />
+        <filter targetName="-check-concurrent-runs" isVisible="false" />
+        <filter targetName="-create-temp-run-dir" isVisible="false" />
+        <filter targetName="-remove-temp-run-dir" isVisible="false" />
+        <filter targetName="jfx-project-run" isVisible="true" />
+        <filter targetName="jfx-project-debug" isVisible="true" />
+        <filter targetName="jfxsa-run" isVisible="false" />
+        <filter targetName="jfxsa-run-noscript" isVisible="false" />
+        <filter targetName="jfxsa-debug" isVisible="false" />
+        <filter targetName="jfxsa-debug-noscript" isVisible="false" />
+        <filter targetName="jfxsa-profile" isVisible="false" />
+        <filter targetName="jfxsa-profile-noscript" isVisible="false" />
+        <filter targetName="-check-clean-if-config-changed" isVisible="false" />
+        <filter targetName="-clean-if-config-changed" isVisible="false" />
+        <filter targetName="jfx-project-profile" isVisible="true" />
+        <filter targetName="-check-jnlp-file-fx" isVisible="false" />
+        <filter targetName="-check-jnlp-file-swing" isVisible="false" />
+        <filter targetName="-check-jnlp-file" isVisible="false" />
+        <filter targetName="-resolve-jnlp-file" isVisible="false" />
+        <filter targetName="-check-concurrent-jnlp-runs" isVisible="false" />
+        <filter targetName="-warn-concurrent-jnlp-runs" isVisible="false" />
+        <filter targetName="jfxws-run" isVisible="true" />
+        <filter targetName="jfxws-debug" isVisible="true" />
+        <filter targetName="-debug-javaws-debuggee" isVisible="false" />
+        <filter targetName="-profile-check-1" isVisible="false" />
+        <filter targetName="-profile-check-jnlp" isVisible="false" />
+        <filter targetName="-do-jfxws-profile" isVisible="false" />
+        <filter targetName="jfxws-profile" isVisible="true" />
+        <filter targetName="jfxws-run-noscript" isVisible="false" />
+        <filter targetName="jfxws-debug-noscript" isVisible="false" />
+        <filter targetName="jfxws-profile-noscript" isVisible="false" />
+        <filter targetName="-check-selected-browser-path" isVisible="false" />
+        <filter targetName="-substitute-template-processed-html-file" isVisible="false" />
+        <filter targetName="-check-template-processed-html-file" isVisible="false" />
+        <filter targetName="-set-template-processed-html-file" isVisible="false" />
+        <filter targetName="-set-html-file" isVisible="false" />
+        <filter targetName="-check-concurrent-html-runs" isVisible="false" />
+        <filter targetName="-warn-concurrent-html-runs" isVisible="false" />
+        <filter targetName="jfxbe-run" isVisible="true" />
+        <filter targetName="jfxbe-debug" isVisible="true" />
+        <filter targetName="-debug-jfxbe-debuggee" isVisible="false" />
+        <filter targetName="-profile-check-html" isVisible="false" />
+        <filter targetName="-do-jfxbe-profile" isVisible="false" />
+        <filter targetName="jfxbe-profile" isVisible="true" />
+        <filter targetName="jfxbe-run-noscript" isVisible="false" />
+        <filter targetName="jfxbe-debug-noscript" isVisible="false" />
+        <filter targetName="jfxbe-profile-noscript" isVisible="false" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="169" column="13" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="169" selection-end-column="13" />
+          <folding>
+            <marker date="1487708401749" expanded="true" signature="9169:9313" ph="Select custo... " />
+            <marker date="1487708401749" expanded="true" signature="9169:9361" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9438" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9569" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1487272055794" expanded="true" signature="2755:3174" ph="{...}" />
+            <marker date="1487272055794" expanded="true" signature="2797:2847" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+          <folding>
+            <marker date="1487694607203" expanded="true" signature="2212:2251" ph="DELETE from " />
+            <marker date="1487694607203" expanded="true" signature="2512:2553" ph="DELETE from " />
+            <marker date="1487694607203" expanded="true" signature="2980:3158" ph="INSERT into customer... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487708752647" expanded="true" signature="8580:8663" ph="UPDATE addre... " />
+            <marker date="1487708752647" expanded="true" signature="9168:9219" ph="UPDATE city " />
+            <marker date="1487708752647" expanded="true" signature="9168:9220" ph="UPDATE city " />
+            <marker date="1487708752647" expanded="true" signature="9657:9706" ph="SELECT addre... customer" />
+            <marker date="1487708752647" expanded="true" signature="10196:10240" ph="SELECT cityI... address" />
+            <marker date="1487708752647" expanded="true" signature="10684:10795" ph="UPDATE custo... " />
+            <marker date="1487708752647" expanded="true" signature="10684:10797" ph="UPDATE custo... " />
+            <marker date="1487708752647" expanded="true" signature="11297:11349" ph="SELECT count... country" />
+            <marker date="1487708752647" expanded="true" signature="11997:12035" ph="SELECT max(c... city" />
+            <marker date="1487708752647" expanded="true" signature="12287:12443" ph="INSERT INTO city... " />
+            <marker date="1487708752647" expanded="true" signature="13223:13270" ph="select max(a... address" />
+            <marker date="1487708752647" expanded="true" signature="13708:13904" ph="INSERT into address... " />
+            <marker date="1487708752647" expanded="true" signature="14620:14670" ph="select max(c... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1487708994717" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="169" column="13" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="169" selection-end-column="13" />
+          <folding>
+            <marker date="1487708401749" expanded="true" signature="9169:9313" ph="Select custo... " />
+            <marker date="1487708401749" expanded="true" signature="9169:9361" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9438" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9569" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <marker date="1487272055794" expanded="true" signature="2755:3174" ph="{...}" />
+            <marker date="1487272055794" expanded="true" signature="2797:2847" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+          <folding>
+            <marker date="1487694607203" expanded="true" signature="2212:2251" ph="DELETE from " />
+            <marker date="1487694607203" expanded="true" signature="2512:2553" ph="DELETE from " />
+            <marker date="1487694607203" expanded="true" signature="2980:3158" ph="INSERT into customer... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding>
+            <marker date="1487708752647" expanded="true" signature="8580:8663" ph="UPDATE addre... " />
+            <marker date="1487708752647" expanded="true" signature="9168:9219" ph="UPDATE city " />
+            <marker date="1487708752647" expanded="true" signature="9168:9220" ph="UPDATE city " />
+            <marker date="1487708752647" expanded="true" signature="9657:9706" ph="SELECT addre... customer" />
+            <marker date="1487708752647" expanded="true" signature="10196:10240" ph="SELECT cityI... address" />
+            <marker date="1487708752647" expanded="true" signature="10684:10795" ph="UPDATE custo... " />
+            <marker date="1487708752647" expanded="true" signature="10684:10797" ph="UPDATE custo... " />
+            <marker date="1487708752647" expanded="true" signature="11297:11349" ph="SELECT count... country" />
+            <marker date="1487708752647" expanded="true" signature="11997:12035" ph="SELECT max(c... city" />
+            <marker date="1487708752647" expanded="true" signature="12287:12443" ph="INSERT INTO city... " />
+            <marker date="1487708752647" expanded="true" signature="13223:13270" ph="select max(a... address" />
+            <marker date="1487708752647" expanded="true" signature="13708:13904" ph="INSERT into address... " />
+            <marker date="1487708752647" expanded="true" signature="14620:14670" ph="select max(c... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487708994717" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="169" column="13" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="169" selection-end-column="13" />
+          <folding>
+            <marker date="1487708401749" expanded="true" signature="9169:9313" ph="Select custo... " />
+            <marker date="1487708401749" expanded="true" signature="9169:9361" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9438" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9569" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <marker date="1487272055794" expanded="true" signature="2755:3174" ph="{...}" />
+            <marker date="1487272055794" expanded="true" signature="2797:2847" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+          <folding>
+            <marker date="1487694607203" expanded="true" signature="2212:2251" ph="DELETE from " />
+            <marker date="1487694607203" expanded="true" signature="2512:2553" ph="DELETE from " />
+            <marker date="1487694607203" expanded="true" signature="2980:3158" ph="INSERT into customer... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding>
+            <marker date="1487708752647" expanded="true" signature="8580:8663" ph="UPDATE addre... " />
+            <marker date="1487708752647" expanded="true" signature="9168:9219" ph="UPDATE city " />
+            <marker date="1487708752647" expanded="true" signature="9168:9220" ph="UPDATE city " />
+            <marker date="1487708752647" expanded="true" signature="9657:9706" ph="SELECT addre... customer" />
+            <marker date="1487708752647" expanded="true" signature="10196:10240" ph="SELECT cityI... address" />
+            <marker date="1487708752647" expanded="true" signature="10684:10795" ph="UPDATE custo... " />
+            <marker date="1487708752647" expanded="true" signature="10684:10797" ph="UPDATE custo... " />
+            <marker date="1487708752647" expanded="true" signature="11297:11349" ph="SELECT count... country" />
+            <marker date="1487708752647" expanded="true" signature="11997:12035" ph="SELECT max(c... city" />
+            <marker date="1487708752647" expanded="true" signature="12287:12443" ph="INSERT INTO city... " />
+            <marker date="1487708752647" expanded="true" signature="13223:13270" ph="select max(a... address" />
+            <marker date="1487708752647" expanded="true" signature="13708:13904" ph="INSERT into address... " />
+            <marker date="1487708752647" expanded="true" signature="14620:14670" ph="select max(c... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487708994717" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487708401749" expanded="true" signature="9169:9313" ph="Select custo... " />
+            <marker date="1487708401749" expanded="true" signature="9169:9361" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9438" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9569" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <marker date="1487708401749" expanded="true" signature="9169:9313" ph="Select custo... " />
+            <marker date="1487708401749" expanded="true" signature="9169:9361" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9438" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9569" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="246" column="0" lean-forward="false" selection-start-line="246" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Scheduling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1070">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/com/sun/glass/ui/InvokeLaterDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="113" column="41" lean-forward="true" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/view/dashboard.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="86" column="55" lean-forward="false" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/dbConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1487272055794" expanded="true" signature="2755:3174" ph="{...}" />
+            <marker date="1487272055794" expanded="true" signature="2797:2847" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Appointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <marker date="1487708994717" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="128" column="63" lean-forward="true" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+          <folding>
+            <marker date="1487708752647" expanded="true" signature="8580:8663" ph="UPDATE addre... " />
+            <marker date="1487708752647" expanded="true" signature="9168:9219" ph="UPDATE city " />
+            <marker date="1487708752647" expanded="true" signature="9168:9220" ph="UPDATE city " />
+            <marker date="1487708752647" expanded="true" signature="9657:9706" ph="SELECT addre... customer" />
+            <marker date="1487708752647" expanded="true" signature="10196:10240" ph="SELECT cityI... address" />
+            <marker date="1487708752647" expanded="true" signature="10684:10795" ph="UPDATE custo... " />
+            <marker date="1487708752647" expanded="true" signature="10684:10797" ph="UPDATE custo... " />
+            <marker date="1487708752647" expanded="true" signature="11297:11349" ph="SELECT count... country" />
+            <marker date="1487708752647" expanded="true" signature="11997:12035" ph="SELECT max(c... city" />
+            <marker date="1487708752647" expanded="true" signature="12287:12443" ph="INSERT INTO city... " />
+            <marker date="1487708752647" expanded="true" signature="13223:13270" ph="select max(a... address" />
+            <marker date="1487708752647" expanded="true" signature="13708:13904" ph="INSERT into address... " />
+            <marker date="1487708752647" expanded="true" signature="14620:14670" ph="select max(c... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1262">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <marker date="1487694607203" expanded="true" signature="2212:2251" ph="DELETE from " />
+            <marker date="1487694607203" expanded="true" signature="2512:2553" ph="DELETE from " />
+            <marker date="1487694607203" expanded="true" signature="2980:3158" ph="INSERT into customer... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1564">
+          <caret line="90" column="74" lean-forward="false" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
+          <folding>
+            <marker date="1487708401749" expanded="true" signature="9169:9313" ph="Select custo... " />
+            <marker date="1487708401749" expanded="true" signature="9169:9361" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9438" ph="Select custo... customer" />
+            <marker date="1487708401749" expanded="true" signature="9169:9569" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>scheduling</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.40-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
