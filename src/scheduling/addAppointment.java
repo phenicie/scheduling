@@ -7,14 +7,13 @@ package scheduling;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLException;
-import java.time.DateTimeException;
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.List;
+
 import java.util.ResourceBundle;
-import java.util.TimeZone;
-import java.util.stream.Collectors;
 
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -26,6 +25,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
 
+import static java.time.ZoneOffset.UTC;
+import static scheduling.addCustomer.user;
 import static scheduling.helpers.showAlert;
 import static scheduling.helpers.timeSelections;
 import static scheduling.helpers.timesList;
@@ -37,9 +38,6 @@ public class addAppointment {
 
     @FXML // URL location of the FXML file that was given to the FXMLLoader
     private URL location;
-
-    @FXML // fx:id="txtAppointmentId"
-    private TextField txtAppointmentId; // Value injected by FXMLLoader
 
     @FXML // fx:id="txtTitle"
     private TextField txtTitle; // Value injected by FXMLLoader
@@ -71,6 +69,9 @@ public class addAppointment {
     @FXML
     private ComboBox<String> selectEndTime;
 
+    @FXML // fx:id="selectAppointment"
+    private ComboBox<Appointment> selectAppointment; // Value injected by FXMLLoader
+
     @FXML
     void addAppointment(ActionEvent event) {
 
@@ -80,9 +81,7 @@ public class addAppointment {
         Setters to intialize form from other classes
 
      */
-    public void setTxtAppointmentId(String txtAppointmentId) {
-        this.txtAppointmentId.setText( txtAppointmentId );
-    }
+
     public void setTxtTitle(String  txtTitle) {
         this.txtTitle.setText( txtTitle );
     }
@@ -121,9 +120,17 @@ public class addAppointment {
         //this.dateEnd.setText( dateEnd );
     }
 
+    public ComboBox<Appointment> getSelectAppointment() {
+        return selectAppointment;
+    }
+
+    public void setSelectAppointment(ComboBox<Appointment> selectAppointment) {
+        this.selectAppointment = selectAppointment;
+    }
+
     @FXML // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
-        assert txtAppointmentId != null : "fx:id=\"txtTitle\" was not injected: check your FXML file 'addAppointment.fxml'.";
+
         assert txtTitle != null : "fx:id=\"txtTitle\" was not injected: check your FXML file 'addAppointment.fxml'.";
         assert txtDescription != null : "fx:id=\"txtDescription\" was not injected: check your FXML file 'addAppointment.fxml'.";
         assert selectCustomer != null : "fx:id=\"selectCustomer\" was not injected: check your FXML file 'addAppointment.fxml'.";
@@ -134,6 +141,7 @@ public class addAppointment {
         assert dateEnd != null : "fx:id=\"dateEnd\" was not injected: check your FXML file 'addAppointment.fxml'.";
         assert selectStartTime != null : "fx:id=\"selectStartTime\" was not injected: check your FXML file 'addAppointment.fxml'.";
         assert selectEndTime != null : "fx:id=\"selectEndTime\" was not injected: check your FXML file 'addAppointment.fxml'.";
+        assert selectAppointment != null : "fx:id=\"selectEndTime\" was not injected: check your FXML file 'addAppointment.fxml'.";
 
         this.selectCustomer.getItems().clear();
         //Customer.getCustomers(); // Populate Customer Map
@@ -150,6 +158,7 @@ public class addAppointment {
     }
     @FXML
     void validateAppointment(ActionEvent event) throws IOException, SQLException, ClassNotFoundException {
+        Appointment appointment;
 
         if (txtTitle.getText().isEmpty()) {
             showAlert( Alert.AlertType.ERROR, "Invalid Title" );
@@ -167,34 +176,79 @@ public class addAppointment {
             showAlert( Alert.AlertType.ERROR, "Invalid End Date" );
         }else if ( selectCustomer.getValue() == null ){
             showAlert( Alert.AlertType.ERROR, "Invalid Customer Selection" );
+        }else if ( selectStartTime.getValue() == null ){
+            showAlert( Alert.AlertType.ERROR, "Invalid Appointment Start Time" );
+        }else if ( selectEndTime.getValue() == null ){
+            showAlert( Alert.AlertType.ERROR, "Invalid Appointment End Time" );
         }else{
-            String appointmentId = txtAppointmentId.getText();
+            Customer customer = selectCustomer.getValue();
+            appointment = (selectAppointment.getValue()==null) ? new Appointment() : selectAppointment.getValue();
             String title = txtTitle.getText();
             String description = txtDescription.getText();
             String location = txtLocation.getText();
             String contact = txtContact.getText();
             String url = txtUrl.getText();
-            // TODO Pare Datetime/Adjust for Timezone
-            String startDate = dateStart.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-            //java.sql.Date sqlDate =java.sql.Date.valueOf(datepicker.getValue());
-            String endDate = dateEnd.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 
-            String customer = selectCustomer.getValue().toString();
-            System.out.println("All strings entered - call Create new Appointment");
-            System.out.println("User timezone id is :" + TimeZone.getDefault().toZoneId());
-            System.out.println("User timezone is :" + ZoneId.systemDefault());
-            // TODO Parse Date/Time fields --> Convert to UTC
-            // TODO Retrieve customerId from selection
+
+
+            // Date and Time formatter for appointment start/end datetime
+            ZoneId clientTimeZone = ZoneId.systemDefault();
+            DateTimeFormatter aptFormat = DateTimeFormatter.ofPattern( "yyyy-MM-dd HH:mm" ).withZone( clientTimeZone );
+
+            // Start Date Time Fields
+            String strStartTime = selectStartTime.getValue();
+            String strStartDate = dateStart.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+            ZonedDateTime aptStart = ZonedDateTime.parse(strStartDate+" "+strStartTime, aptFormat); // In Clients TimeZone
+            LocalDateTime localStart = LocalDateTime.ofInstant(aptStart.toInstant(), UTC); // InUTC TimeZone
+            System.out.println("UTC Start DATETIME IS : "+localStart);// Start converted to UTC to store in database
+            Timestamp startUtc = Timestamp.valueOf(localStart);
+
+            // End Date Time Fields
+            String strEndTime = selectEndTime.getValue();
+            String strEndDate = dateEnd.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+            ZonedDateTime aptEnd = ZonedDateTime.parse(strEndDate+" "+strEndTime, aptFormat); // In Clients TimeZone
+            LocalDateTime localEnd = LocalDateTime.ofInstant(aptEnd.toInstant(), UTC); // InUTC TimeZone
+            System.out.println("UTC End DATETIME IS : "+localEnd);// End converted to UTC to store in database
+            Timestamp endUtc = Timestamp.valueOf(localEnd);
+
+
+            createAppointment( customer, appointment, title, description, location, contact, url, startUtc, endUtc );
+
+
             // TODO Create Appointment Function ** Use Lambda
 
+        }
+    }
+
+    private Appointment createAppointment(Customer customer, Appointment appointment, String title, String description, String location, String contact, String url, Timestamp startUtc, Timestamp endUtc){
+        Boolean newAppointment;
+        appointment.setCustomer( customer );
+        appointment.setTitle( title );
+        appointment.setDescription( description );
+        appointment.setLocation( location );
+        appointment.setContact( contact );
+        appointment.setUrl( url );
+        appointment.setStart( startUtc );
+        appointment.setEnd( endUtc );
+
+
+        if(appointment.getAppointmentId() == 0){
+            //This is a new appointment --> INSERT
+            Integer appointmentId = Appointment.getAppointmentMaxId();
+            appointment.setAppointmentId( appointmentId );
+            newAppointment = true;
+
+        }else{
+            //This is an existing appointment --> UPDATE
+            newAppointment = false;
 
 
         }
+        Appointment.appointments.add(appointment); // Add to Static List of Appointments
 
-
-
+        appointment.sqlUpdateAppointment(newAppointment, user);
+        return appointment;
     }
-
     @FXML
     void cancelAddAppointment(ActionEvent event) throws IOException {
         Stage primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();

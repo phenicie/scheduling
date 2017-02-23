@@ -16,7 +16,7 @@ import static scheduling.dbConnect.getConnection;
  * Created by phenicie on 2/13/2017.
  */
 public class Customer {
-    public static Map<Integer, String> customerMap = new HashMap<>(); //List of Customers generated for GUI Combo Boxes
+    public static Map<Integer, Customer> customerMap = new HashMap<>(); //List of Customers generated for GUI Combo Boxes
 
 
     private final SimpleIntegerProperty customerId;
@@ -44,6 +44,7 @@ public class Customer {
         this.postalCode = new SimpleStringProperty( postalCode );
         this.countryId = new SimpleIntegerProperty( countryId );
         this.country = new SimpleStringProperty( country );
+        customerMap.put(this.getCountryId(), this);
     }
 
     public void deleteCustomer(){

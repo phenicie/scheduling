@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="111149c2-22e0-4b91-8dab-5e4ddf3e07ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/scheduling/scheduling/helpers.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/scheduling/scheduling/Customer.class" afterPath="$PROJECT_DIR$/out/production/scheduling/scheduling/Customer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/scheduling/scheduling/Dashboard.class" afterPath="$PROJECT_DIR$/out/production/scheduling/scheduling/Dashboard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/scheduling/scheduling/addCustomer.class" afterPath="$PROJECT_DIR$/out/production/scheduling/scheduling/addCustomer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_40_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_40_bin.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scheduling2-21.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/scheduling/scheduling/view/dashboard.fxml" afterPath="$PROJECT_DIR$/out/production/scheduling/scheduling/view/dashboard.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Appointment.java" afterPath="$PROJECT_DIR$/src/scheduling/Appointment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Bundle.properties" afterPath="$PROJECT_DIR$/src/scheduling/Bundle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Bundle_es.properties" afterPath="$PROJECT_DIR$/src/scheduling/Bundle_es.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Bundle_fr.properties" afterPath="$PROJECT_DIR$/src/scheduling/Bundle_fr.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Bundle_ge.properties" afterPath="$PROJECT_DIR$/src/scheduling/Bundle_ge.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Country.java" afterPath="$PROJECT_DIR$/src/scheduling/Country.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Customer.java" afterPath="$PROJECT_DIR$/src/scheduling/Customer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Dashboard.java" afterPath="$PROJECT_DIR$/src/scheduling/Dashboard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Login.java" afterPath="$PROJECT_DIR$/src/scheduling/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/Scheduling.java" afterPath="$PROJECT_DIR$/src/scheduling/Scheduling.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/addAppointment.java" afterPath="$PROJECT_DIR$/src/scheduling/addAppointment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/addCustomer.java" afterPath="$PROJECT_DIR$/src/scheduling/addCustomer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/dbConnect.java" afterPath="$PROJECT_DIR$/src/scheduling/dbConnect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/helpers.java" afterPath="$PROJECT_DIR$/src/scheduling/helpers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scheduling/view/addAppointment.fxml" afterPath="$PROJECT_DIR$/src/scheduling/view/addAppointment.fxml" />
     </list>
@@ -23,7 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/scheduling$Dashboard.coverage" NAME="Dashboard Coverage Results" MODIFIED="1487793822045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/scheduling$Dashboard.coverage" NAME="Dashboard Coverage Results" MODIFIED="1487878838553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>scheduling.*</FILTER>
     </SUITE>
   </component>
@@ -54,13 +60,13 @@
       <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="356">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
-                <marker date="1487793900927" expanded="true" signature="10205:10349" ph="Select custo... " />
-                <marker date="1487793900927" expanded="true" signature="10205:10397" ph="Select custo... customer" />
-                <marker date="1487793900927" expanded="true" signature="10205:10474" ph="Select custo... customer" />
-                <marker date="1487793900927" expanded="true" signature="10205:10605" ph="Select cust.... customer" />
+                <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+                <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+                <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+                <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
               </folding>
             </state>
           </provider>
@@ -69,24 +75,43 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scheduling/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-137">
-              <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+            <state relative-caret-position="544">
+              <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
               <folding>
-                <marker date="1487790163638" expanded="true" signature="2261:2300" ph="DELETE from " />
-                <marker date="1487790163638" expanded="true" signature="2561:2602" ph="DELETE from " />
-                <marker date="1487790163638" expanded="true" signature="3029:3207" ph="INSERT into customer... " />
+                <marker date="1487883077169" expanded="true" signature="2315:2354" ph="DELETE from " />
+                <marker date="1487883077169" expanded="true" signature="2615:2656" ph="DELETE from " />
+                <marker date="1487883077169" expanded="true" signature="3083:3261" ph="INSERT into customer... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addAppointment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addAppointment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scheduling/addAppointment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="185" column="61" lean-forward="true" selection-start-line="185" selection-start-column="61" selection-end-line="185" selection-end-column="61" />
+            <state relative-caret-position="870">
+              <caret line="188" column="50" lean-forward="true" selection-start-line="188" selection-start-column="50" selection-end-line="188" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Appointment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scheduling/Appointment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#8400#8401#0" expanded="true" />
+                <element signature="e#8446#8447#0" expanded="true" />
+                <marker date="1487883426045" expanded="true" signature="2574:2814" ph="INSERT into appointment... " />
+                <marker date="1487883426045" expanded="true" signature="3711:3876" ph="UPDATE appoi... " />
+                <marker date="1487883426045" expanded="true" signature="4854:4861" ph="Select cust.... customer" />
+                <marker date="1487883426045" expanded="true" signature="4854:4879" ph="Select * fro... appointment" />
+                <marker date="1487883426045" expanded="true" signature="6321:6380" ph="SELECT MAX(a... appointment" />
               </folding>
             </state>
           </provider>
@@ -95,8 +120,8 @@
       <file leaf-file-name="helpers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scheduling/helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="425">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,20 +132,20 @@
       <file leaf-file-name="addCustomer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="895">
-              <caret line="175" column="5" lean-forward="true" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
+            <state relative-caret-position="-2431">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="31" />
               <folding>
-                <marker date="1487790160334" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
-                <marker date="1487790160334" expanded="true" signature="9055:9107" ph="UPDATE city " />
-                <marker date="1487790160334" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
-                <marker date="1487790160334" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
-                <marker date="1487790160334" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
-                <marker date="1487790160334" expanded="true" signature="11184:11236" ph="SELECT count... country" />
-                <marker date="1487790160334" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
-                <marker date="1487790160334" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
-                <marker date="1487790160334" expanded="true" signature="13110:13157" ph="select max(a... address" />
-                <marker date="1487790160334" expanded="true" signature="13595:13791" ph="INSERT into address... " />
-                <marker date="1487790160334" expanded="true" signature="14507:14557" ph="select max(c... customer" />
+                <marker date="1487873786036" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
+                <marker date="1487873786036" expanded="true" signature="9055:9107" ph="UPDATE city " />
+                <marker date="1487873786036" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
+                <marker date="1487873786036" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
+                <marker date="1487873786036" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
+                <marker date="1487873786036" expanded="true" signature="11184:11236" ph="SELECT count... country" />
+                <marker date="1487873786036" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
+                <marker date="1487873786036" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
+                <marker date="1487873786036" expanded="true" signature="13110:13157" ph="select max(a... address" />
+                <marker date="1487873786036" expanded="true" signature="13595:13791" ph="INSERT into address... " />
+                <marker date="1487873786036" expanded="true" signature="14507:14557" ph="select max(c... customer" />
               </folding>
             </state>
           </provider>
@@ -143,7 +168,7 @@
                 <element signature="e#864#865#0" expanded="false" />
                 <element signature="e#909#910#0" expanded="false" />
                 <element signature="e#949#950#0" expanded="false" />
-                <marker date="1487790163580" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+                <marker date="1487873787989" expanded="true" signature="1159:1197" ph="SELECT count... country" />
               </folding>
             </state>
           </provider>
@@ -166,6 +191,16 @@
       <find>System.out</find>
       <find>new Customer</find>
       <find>customerData</find>
+      <find>timezone</find>
+      <find>setS</find>
+      <find>getEnd</find>
+      <find>Zoneda</find>
+      <find>getMax</find>
+      <find>appointments</find>
+      <find>customerMap</find>
+      <find>ObservableList</find>
+      <find>DateTi</find>
+      <find>appointmentTable</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,18 +214,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/scheduling/Customer.java" />
         <option value="$PROJECT_DIR$/src/scheduling/view/dashboard.fxml" />
         <option value="$PROJECT_DIR$/src/scheduling/controller/addCustomer.java" />
         <option value="$PROJECT_DIR$/src/scheduling/Countries.java" />
         <option value="$PROJECT_DIR$/src/scheduling/Login.java" />
         <option value="$PROJECT_DIR$/src/scheduling/addCustomer.java" />
         <option value="$PROJECT_DIR$/src/scheduling/Country.java" />
-        <option value="$PROJECT_DIR$/src/scheduling/Appointment.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/Jfxtras-labs 8.0-r6-SNAPSHOT ....URL" />
-        <option value="$PROJECT_DIR$/src/scheduling/Dashboard.java" />
         <option value="$PROJECT_DIR$/src/scheduling/helpers.java" />
         <option value="$PROJECT_DIR$/src/scheduling/addAppointment.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/Customer.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/Dashboard.java" />
+        <option value="$PROJECT_DIR$/src/scheduling/Appointment.java" />
       </list>
     </option>
   </component>
@@ -204,10 +239,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-86" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,9 +260,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,6 +320,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -754,11 +789,12 @@
       <workItem from="1487272088922" duration="5191000" />
       <workItem from="1487694842561" duration="12297000" />
       <workItem from="1487790688272" duration="5764000" />
+      <workItem from="1487873928322" duration="9446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41441000" />
+    <option name="totallyTimeSpent" value="50887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,7 +806,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-86" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -786,16 +822,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.49701494" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31431535" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31385282" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30411255" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29564315" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -805,6 +841,39 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30200633" sideWeight="0.50208336" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23560767" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.49701494" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31385282" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30411255" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1239,33 +1308,65 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+            <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <marker date="1487883077169" expanded="true" signature="2315:2354" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="2615:2656" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="3083:3261" ph="INSERT into customer... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/addAppointment.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487793900927" expanded="true" signature="10205:10349" ph="Select custo... " />
-            <marker date="1487793900927" expanded="true" signature="10205:10397" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10474" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10605" ph="Select cust.... customer" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="63" lean-forward="true" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+        <state relative-caret-position="2975">
+          <caret line="175" column="5" lean-forward="true" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
           <folding>
-            <marker date="1487790160334" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
-            <marker date="1487790160334" expanded="true" signature="9055:9107" ph="UPDATE city " />
-            <marker date="1487790160334" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
-            <marker date="1487790160334" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
-            <marker date="1487790160334" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
-            <marker date="1487790160334" expanded="true" signature="11184:11236" ph="SELECT count... country" />
-            <marker date="1487790160334" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
-            <marker date="1487790160334" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
-            <marker date="1487790160334" expanded="true" signature="13110:13157" ph="select max(a... address" />
-            <marker date="1487790160334" expanded="true" signature="13595:13791" ph="INSERT into address... " />
-            <marker date="1487790160334" expanded="true" signature="14507:14557" ph="select max(c... customer" />
+            <marker date="1487873786036" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
+            <marker date="1487873786036" expanded="true" signature="9055:9107" ph="UPDATE city " />
+            <marker date="1487873786036" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
+            <marker date="1487873786036" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
+            <marker date="1487873786036" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
+            <marker date="1487873786036" expanded="true" signature="11184:11236" ph="SELECT count... country" />
+            <marker date="1487873786036" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
+            <marker date="1487873786036" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
+            <marker date="1487873786036" expanded="true" signature="13110:13157" ph="select max(a... address" />
+            <marker date="1487873786036" expanded="true" signature="13595:13791" ph="INSERT into address... " />
+            <marker date="1487873786036" expanded="true" signature="14507:14557" ph="select max(c... customer" />
           </folding>
         </state>
       </provider>
@@ -1286,7 +1387,61 @@
             <element signature="e#864#865#0" expanded="false" />
             <element signature="e#909#910#0" expanded="false" />
             <element signature="e#949#950#0" expanded="false" />
-            <marker date="1487790163580" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+            <marker date="1487873787989" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+            <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="63" lean-forward="true" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+          <folding>
+            <marker date="1487873786036" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
+            <marker date="1487873786036" expanded="true" signature="9055:9107" ph="UPDATE city " />
+            <marker date="1487873786036" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
+            <marker date="1487873786036" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
+            <marker date="1487873786036" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
+            <marker date="1487873786036" expanded="true" signature="11184:11236" ph="SELECT count... country" />
+            <marker date="1487873786036" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
+            <marker date="1487873786036" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
+            <marker date="1487873786036" expanded="true" signature="13110:13157" ph="select max(a... address" />
+            <marker date="1487873786036" expanded="true" signature="13595:13791" ph="INSERT into address... " />
+            <marker date="1487873786036" expanded="true" signature="14507:14557" ph="select max(c... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#555#556#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
+            <element signature="e#800#801#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+            <marker date="1487873787989" expanded="true" signature="1159:1197" ph="SELECT count... country" />
           </folding>
         </state>
       </provider>
@@ -1296,10 +1451,10 @@
         <state relative-caret-position="2465">
           <caret line="169" column="13" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="169" selection-end-column="13" />
           <folding>
-            <marker date="1487793900927" expanded="true" signature="10205:10349" ph="Select custo... " />
-            <marker date="1487793900927" expanded="true" signature="10205:10397" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10474" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10605" ph="Select cust.... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+            <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
           </folding>
         </state>
       </provider>
@@ -1316,7 +1471,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
-          <folding />
+          <folding>
+            <marker date="1487883077169" expanded="true" signature="2315:2354" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="2615:2656" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="3083:3261" ph="INSERT into customer... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,17 +1484,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487790160334" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
-            <marker date="1487790160334" expanded="true" signature="9055:9107" ph="UPDATE city " />
-            <marker date="1487790160334" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
-            <marker date="1487790160334" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
-            <marker date="1487790160334" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
-            <marker date="1487790160334" expanded="true" signature="11184:11236" ph="SELECT count... country" />
-            <marker date="1487790160334" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
-            <marker date="1487790160334" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
-            <marker date="1487790160334" expanded="true" signature="13110:13157" ph="select max(a... address" />
-            <marker date="1487790160334" expanded="true" signature="13595:13791" ph="INSERT into address... " />
-            <marker date="1487790160334" expanded="true" signature="14507:14557" ph="select max(c... customer" />
+            <marker date="1487873786036" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
+            <marker date="1487873786036" expanded="true" signature="9055:9107" ph="UPDATE city " />
+            <marker date="1487873786036" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
+            <marker date="1487873786036" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
+            <marker date="1487873786036" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
+            <marker date="1487873786036" expanded="true" signature="11184:11236" ph="SELECT count... country" />
+            <marker date="1487873786036" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
+            <marker date="1487873786036" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
+            <marker date="1487873786036" expanded="true" signature="13110:13157" ph="select max(a... address" />
+            <marker date="1487873786036" expanded="true" signature="13595:13791" ph="INSERT into address... " />
+            <marker date="1487873786036" expanded="true" signature="14507:14557" ph="select max(c... customer" />
           </folding>
         </state>
       </provider>
@@ -1356,7 +1515,7 @@
             <element signature="e#864#865#0" expanded="false" />
             <element signature="e#909#910#0" expanded="false" />
             <element signature="e#949#950#0" expanded="false" />
-            <marker date="1487790163580" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+            <marker date="1487873787989" expanded="true" signature="1159:1197" ph="SELECT count... country" />
           </folding>
         </state>
       </provider>
@@ -1366,10 +1525,10 @@
         <state relative-caret-position="2465">
           <caret line="169" column="13" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="169" selection-end-column="13" />
           <folding>
-            <marker date="1487793900927" expanded="true" signature="10205:10349" ph="Select custo... " />
-            <marker date="1487793900927" expanded="true" signature="10205:10397" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10474" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10605" ph="Select cust.... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+            <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
           </folding>
         </state>
       </provider>
@@ -1386,7 +1545,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
-          <folding />
+          <folding>
+            <marker date="1487883077169" expanded="true" signature="2315:2354" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="2615:2656" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="3083:3261" ph="INSERT into customer... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,17 +1558,17 @@
         <state relative-caret-position="986">
           <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
           <folding>
-            <marker date="1487790160334" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
-            <marker date="1487790160334" expanded="true" signature="9055:9107" ph="UPDATE city " />
-            <marker date="1487790160334" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
-            <marker date="1487790160334" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
-            <marker date="1487790160334" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
-            <marker date="1487790160334" expanded="true" signature="11184:11236" ph="SELECT count... country" />
-            <marker date="1487790160334" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
-            <marker date="1487790160334" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
-            <marker date="1487790160334" expanded="true" signature="13110:13157" ph="select max(a... address" />
-            <marker date="1487790160334" expanded="true" signature="13595:13791" ph="INSERT into address... " />
-            <marker date="1487790160334" expanded="true" signature="14507:14557" ph="select max(c... customer" />
+            <marker date="1487873786036" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
+            <marker date="1487873786036" expanded="true" signature="9055:9107" ph="UPDATE city " />
+            <marker date="1487873786036" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
+            <marker date="1487873786036" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
+            <marker date="1487873786036" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
+            <marker date="1487873786036" expanded="true" signature="11184:11236" ph="SELECT count... country" />
+            <marker date="1487873786036" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
+            <marker date="1487873786036" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
+            <marker date="1487873786036" expanded="true" signature="13110:13157" ph="select max(a... address" />
+            <marker date="1487873786036" expanded="true" signature="13595:13791" ph="INSERT into address... " />
+            <marker date="1487873786036" expanded="true" signature="14507:14557" ph="select max(c... customer" />
           </folding>
         </state>
       </provider>
@@ -1426,7 +1589,7 @@
             <element signature="e#864#865#0" expanded="false" />
             <element signature="e#909#910#0" expanded="false" />
             <element signature="e#949#950#0" expanded="false" />
-            <marker date="1487790163580" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+            <marker date="1487873787989" expanded="true" signature="1159:1197" ph="SELECT count... country" />
           </folding>
         </state>
       </provider>
@@ -1436,10 +1599,10 @@
         <state relative-caret-position="2873">
           <caret line="169" column="13" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="169" selection-end-column="13" />
           <folding>
-            <marker date="1487793900927" expanded="true" signature="10205:10349" ph="Select custo... " />
-            <marker date="1487793900927" expanded="true" signature="10205:10397" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10474" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10605" ph="Select cust.... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+            <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
           </folding>
         </state>
       </provider>
@@ -1456,7 +1619,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
-          <folding />
+          <folding>
+            <marker date="1487883077169" expanded="true" signature="2315:2354" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="2615:2656" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="3083:3261" ph="INSERT into customer... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1465,17 +1632,17 @@
         <state relative-caret-position="1241">
           <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
           <folding>
-            <marker date="1487790160334" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
-            <marker date="1487790160334" expanded="true" signature="9055:9107" ph="UPDATE city " />
-            <marker date="1487790160334" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
-            <marker date="1487790160334" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
-            <marker date="1487790160334" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
-            <marker date="1487790160334" expanded="true" signature="11184:11236" ph="SELECT count... country" />
-            <marker date="1487790160334" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
-            <marker date="1487790160334" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
-            <marker date="1487790160334" expanded="true" signature="13110:13157" ph="select max(a... address" />
-            <marker date="1487790160334" expanded="true" signature="13595:13791" ph="INSERT into address... " />
-            <marker date="1487790160334" expanded="true" signature="14507:14557" ph="select max(c... customer" />
+            <marker date="1487873786036" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
+            <marker date="1487873786036" expanded="true" signature="9055:9107" ph="UPDATE city " />
+            <marker date="1487873786036" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
+            <marker date="1487873786036" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
+            <marker date="1487873786036" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
+            <marker date="1487873786036" expanded="true" signature="11184:11236" ph="SELECT count... country" />
+            <marker date="1487873786036" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
+            <marker date="1487873786036" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
+            <marker date="1487873786036" expanded="true" signature="13110:13157" ph="select max(a... address" />
+            <marker date="1487873786036" expanded="true" signature="13595:13791" ph="INSERT into address... " />
+            <marker date="1487873786036" expanded="true" signature="14507:14557" ph="select max(c... customer" />
           </folding>
         </state>
       </provider>
@@ -1496,7 +1663,7 @@
             <element signature="e#864#865#0" expanded="false" />
             <element signature="e#909#910#0" expanded="false" />
             <element signature="e#949#950#0" expanded="false" />
-            <marker date="1487790163580" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+            <marker date="1487873787989" expanded="true" signature="1159:1197" ph="SELECT count... country" />
           </folding>
         </state>
       </provider>
@@ -1506,10 +1673,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487793900927" expanded="true" signature="10205:10349" ph="Select custo... " />
-            <marker date="1487793900927" expanded="true" signature="10205:10397" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10474" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10605" ph="Select cust.... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+            <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
           </folding>
         </state>
       </provider>
@@ -1519,10 +1686,10 @@
         <state relative-caret-position="391">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <marker date="1487793900927" expanded="true" signature="10205:10349" ph="Select custo... " />
-            <marker date="1487793900927" expanded="true" signature="10205:10397" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10474" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10605" ph="Select cust.... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+            <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
           </folding>
         </state>
       </provider>
@@ -1582,14 +1749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scheduling/Appointment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scheduling/Country.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -1606,7 +1765,7 @@
             <element signature="e#864#865#0" expanded="false" />
             <element signature="e#909#910#0" expanded="false" />
             <element signature="e#949#950#0" expanded="false" />
-            <marker date="1487790163580" expanded="true" signature="1159:1197" ph="SELECT count... country" />
+            <marker date="1487873787989" expanded="true" signature="1159:1197" ph="SELECT count... country" />
           </folding>
         </state>
       </provider>
@@ -1615,27 +1774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="175" column="5" lean-forward="true" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
-          <folding>
-            <marker date="1487790160334" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
-            <marker date="1487790160334" expanded="true" signature="9055:9107" ph="UPDATE city " />
-            <marker date="1487790160334" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
-            <marker date="1487790160334" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
-            <marker date="1487790160334" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
-            <marker date="1487790160334" expanded="true" signature="11184:11236" ph="SELECT count... country" />
-            <marker date="1487790160334" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
-            <marker date="1487790160334" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
-            <marker date="1487790160334" expanded="true" signature="13110:13157" ph="select max(a... address" />
-            <marker date="1487790160334" expanded="true" signature="13595:13791" ph="INSERT into address... " />
-            <marker date="1487790160334" expanded="true" signature="14507:14557" ph="select max(c... customer" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1643,51 +1781,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="412" column="9" lean-forward="true" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+    <entry file="file://$PROJECT_DIR$/src/scheduling/helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
-            <marker date="1487793900927" expanded="true" signature="10205:10349" ph="Select custo... " />
-            <marker date="1487793900927" expanded="true" signature="10205:10397" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10474" ph="Select custo... customer" />
-            <marker date="1487793900927" expanded="true" signature="10205:10605" ph="Select cust.... customer" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/addCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2431">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <marker date="1487873786036" expanded="true" signature="8467:8550" ph="UPDATE addre... " />
+            <marker date="1487873786036" expanded="true" signature="9055:9107" ph="UPDATE city " />
+            <marker date="1487873786036" expanded="true" signature="9544:9593" ph="SELECT addre... customer" />
+            <marker date="1487873786036" expanded="true" signature="10083:10127" ph="SELECT cityI... address" />
+            <marker date="1487873786036" expanded="true" signature="10571:10682" ph="UPDATE custo... " />
+            <marker date="1487873786036" expanded="true" signature="11184:11236" ph="SELECT count... country" />
+            <marker date="1487873786036" expanded="true" signature="11884:11922" ph="SELECT max(c... city" />
+            <marker date="1487873786036" expanded="true" signature="12174:12330" ph="INSERT INTO city... " />
+            <marker date="1487873786036" expanded="true" signature="13110:13157" ph="select max(a... address" />
+            <marker date="1487873786036" expanded="true" signature="13595:13791" ph="INSERT into address... " />
+            <marker date="1487873786036" expanded="true" signature="14507:14557" ph="select max(c... customer" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scheduling/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        <state relative-caret-position="544">
+          <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
           <folding>
-            <marker date="1487790163638" expanded="true" signature="2261:2300" ph="DELETE from " />
-            <marker date="1487790163638" expanded="true" signature="2561:2602" ph="DELETE from " />
-            <marker date="1487790163638" expanded="true" signature="3029:3207" ph="INSERT into customer... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scheduling/helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1487883077169" expanded="true" signature="2315:2354" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="2615:2656" ph="DELETE from " />
+            <marker date="1487883077169" expanded="true" signature="3083:3261" ph="INSERT into customer... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scheduling/addAppointment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="185" column="61" lean-forward="true" selection-start-line="185" selection-start-column="61" selection-end-line="185" selection-end-column="61" />
+        <state relative-caret-position="870">
+          <caret line="188" column="50" lean-forward="true" selection-start-line="188" selection-start-column="50" selection-end-line="188" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <marker date="1487883391920" expanded="true" signature="10377:10521" ph="Select custo... " />
+            <marker date="1487883391920" expanded="true" signature="10377:10569" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10646" ph="Select custo... customer" />
+            <marker date="1487883391920" expanded="true" signature="10377:10777" ph="Select cust.... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scheduling/Appointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8400#8401#0" expanded="true" />
+            <element signature="e#8446#8447#0" expanded="true" />
+            <marker date="1487883426045" expanded="true" signature="2574:2814" ph="INSERT into appointment... " />
+            <marker date="1487883426045" expanded="true" signature="3711:3876" ph="UPDATE appoi... " />
+            <marker date="1487883426045" expanded="true" signature="4854:4861" ph="Select cust.... customer" />
+            <marker date="1487883426045" expanded="true" signature="4854:4879" ph="Select * fro... appointment" />
+            <marker date="1487883426045" expanded="true" signature="6321:6380" ph="SELECT MAX(a... appointment" />
           </folding>
         </state>
       </provider>

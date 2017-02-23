@@ -51,9 +51,9 @@
             <Button mnemonicParsing="false" onAction="#validateAppointment" text="Submit" GridPane.columnIndex="2" GridPane.rowIndex="9" />
             <Button fx:id="btnCancel" mnemonicParsing="false" onAction="#cancelAddAppointment" text="Cancel" GridPane.columnIndex="1" GridPane.rowIndex="9" />
             <Label text="Customer" GridPane.rowIndex="1" />
-            <TextField fx:id="txtAppointmentId" visible="false" GridPane.columnIndex="1" />
             <ComboBox fx:id="selectStartTime" prefWidth="150.0" promptText="Start Time" GridPane.columnIndex="2" GridPane.rowIndex="7" />
             <ComboBox fx:id="selectEndTime" prefWidth="150.0" promptText="End Time" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <ComboBox fx:id="selectAppointment" prefWidth="150.0" GridPane.columnIndex="2" />
          </children>
       </GridPane>
    </children>

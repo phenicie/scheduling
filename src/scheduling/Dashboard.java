@@ -4,6 +4,7 @@ package scheduling; /**
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Map;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
@@ -48,6 +49,7 @@ public class Dashboard extends Application {
     @FXML // fx:id="btnEditCustomer"
     private Button btnEditCustomer; // Value injected by FXMLLoader
 
+    // CUSTOMER TABLE
     @FXML // fx:id="tableView"
     private TableView<Customer> tableView; // Value injected by FXMLLoader
 
@@ -83,6 +85,13 @@ public class Dashboard extends Application {
 
     @FXML // fx:id="columnCountry"
     private TableColumn<Customer, String> columnCountry; // Value injected by FXMLLoader
+
+    // APPOINTMENTS TABLE
+    @FXML
+    private TableView<Appointment> appointmentTable;
+
+    // TODO ADD appointment Columns
+
 
 
     @FXML // This method is called by the FXMLLoader when initialization is complete
